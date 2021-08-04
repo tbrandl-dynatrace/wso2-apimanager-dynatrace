@@ -17,12 +17,12 @@ remote_tracer.name = "opentelemetry"
 
 ## Using with Dynatrace
 - This requires at least OneAgent version 1.221 as WSO2 API Manager uses an old version of OpenTracing (0.31). The Dynatrace OneAgent needs to be installed on the machine running WSO2.
-- Optional: 
--- Add this custom service:
+* Optional: 
+  * Add this custom service:
 ![image](https://user-images.githubusercontent.com/48479537/128139727-9676a0cb-00d1-4d84-9ce4-731505bde9ef.png)
--- Add this request attribute:
+  * Add this request attribute:
 ![image](https://user-images.githubusercontent.com/48479537/128139850-b8f927f8-38b1-49b2-8d62-1243fa71ed5a.png)
--- Add the following request naming rule on the service:
+  * Add the following request naming rule on the service:
 ![image](https://user-images.githubusercontent.com/48479537/128140107-681d3fc3-3e3a-4160-bf6e-deb46d033c6b.png)
 
 
