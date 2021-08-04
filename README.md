@@ -2,7 +2,7 @@
 
 This is an implementation for OpenTracing in WSO2 API manager which uses pure OpenTracing classes for being able to use the Dynatrace OneAgent with WSO2.
 
-It is based on [this](https://apim.docs.wso2.com/en/3.2.0/administer/logging-and-monitoring/monitoring/monitoring-with-opentracing/#use-custom-tracer-implementation) implementation of a custom Tracer
+It is based on [this](https://apim.docs.wso2.com/en/3.2.0/administer/logging-and-monitoring/monitoring/monitoring-with-opentracing/#use-custom-tracer-implementation) implementation of a custom Tracer.
 
 **There are no dependencies to Dynatrace in this component**
 
