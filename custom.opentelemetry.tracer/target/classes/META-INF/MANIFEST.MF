@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1627546558060
+Build-Jdk: 14.0.1
+Built-By: thomas.brandl
+Bundle-Description: WSO2 is an open source application development softw
+ are company focused on providing service-oriented        architecture s
+ olutions for professional developers.
+Bundle-DocURL: http://www.wso2.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: custom.opentelemetry.tracer
+Bundle-SymbolicName: custom.opentelemetry.tracer
+Bundle-Vendor: WSO2
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Import-Package: io.opentracing;resolution:=optional;version="[0.32,1)",i
+ o.opentracing.util;resolution:=optional;version="[0.32,1)",org.apache.c
+ ommons.logging;resolution:=optional;version="[1.2,2)",org.osgi.framewor
+ k;resolution:=optional;version="[1.9,2)",org.osgi.service.component;res
+ olution:=optional;version="[1.2,2)",org.wso2.carbon.apimgt.tracing;reso
+ lution:=optional;version="[6.7,7)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/org.wso2.custom.client.internal.TracingServi
+ ceComponent.xml,OSGI-INF/org.wso2.custom.client.TracingServiceComponent
+ .xml
+Tool: Bnd-3.2.0.201605172007
