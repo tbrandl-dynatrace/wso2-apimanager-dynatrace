@@ -4,7 +4,7 @@ This is an implementation for OpenTracing in WSO2 API manager which uses pure Op
 
 It is based on [this](https://apim.docs.wso2.com/en/3.2.0/administer/logging-and-monitoring/monitoring/monitoring-with-opentracing/#use-custom-tracer-implementation) implementation of a custom Tracer.
 
-**There are no dependencies to Dynatrace in this component**
+**There are no dependencies to Dynatrace in this component.**
 
 ## How to use
 - Copy custom.opentelemetry.tracer-1.0.0-SNAPSHOT.jar to *WSO2_DIR*/repository/components/dropins
@@ -28,3 +28,10 @@ remote_tracer.name = "opentelemetry"
 
 As a result, the traces will look like this:
 ![image](https://user-images.githubusercontent.com/48479537/128140380-c14f909f-9c9d-4b07-8393-060343abaf65.png)
+
+# License
+
+[Apache License 2.0](https://github.com/tbrandl-dynatrace/wso2-apimanager-dynatrace/blob/05102e2f98571479a0f4aed7a555e479d01b110d/custom.opentelemetry.tracer/target/maven-shared-archive-resources/META-INF/LICENSE)
+
+# Support
+This is a community-developed project. There is no official Dynatrace support for this project.
