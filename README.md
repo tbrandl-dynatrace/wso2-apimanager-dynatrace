@@ -22,8 +22,12 @@ Create the following Span Context Propagation rule:
 
 ![image](https://user-images.githubusercontent.com/48479537/134140123-e2033e9a-862f-4c54-8d16-e27b6b2099ff.png)
 
+The resulting trace will look like this:
+![image](https://user-images.githubusercontent.com/48479537/134142593-9bf54e7d-ccd3-4fa1-9947-85439d35bfbc.png)
 
-* Not necessary anymore: 
+
+
+## Not necessary anymore
   * Add this custom service:
 ![image](https://user-images.githubusercontent.com/48479537/128139727-9676a0cb-00d1-4d84-9ce4-731505bde9ef.png)
   * Add this request attribute:
