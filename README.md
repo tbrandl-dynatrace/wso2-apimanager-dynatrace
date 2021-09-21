@@ -25,6 +25,9 @@ remote_tracer.name = "opentelemetry"
 
 ![image](https://user-images.githubusercontent.com/48479537/134140123-e2033e9a-862f-4c54-8d16-e27b6b2099ff.png)
 
+- Disable the Java web service sensor as this will interfere with the context propagation rule:
+![image](https://user-images.githubusercontent.com/48479537/134180207-694709eb-fe8c-42b7-b173-1858e5f919e4.png)
+
 The resulting trace will look like this:
 ![image](https://user-images.githubusercontent.com/48479537/134142593-9bf54e7d-ccd3-4fa1-9947-85439d35bfbc.png)
 
