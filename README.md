@@ -25,20 +25,6 @@ Create the following Span Context Propagation rule:
 The resulting trace will look like this:
 ![image](https://user-images.githubusercontent.com/48479537/134142593-9bf54e7d-ccd3-4fa1-9947-85439d35bfbc.png)
 
-
-
-## Not necessary anymore
-  * Add this custom service:
-![image](https://user-images.githubusercontent.com/48479537/128139727-9676a0cb-00d1-4d84-9ce4-731505bde9ef.png)
-  * Add this request attribute:
-![image](https://user-images.githubusercontent.com/48479537/128139850-b8f927f8-38b1-49b2-8d62-1243fa71ed5a.png)
-  * Add the following request naming rule on the service:
-![image](https://user-images.githubusercontent.com/48479537/128140107-681d3fc3-3e3a-4160-bf6e-deb46d033c6b.png)
-
-
-As a result, the traces will look like this:
-![image](https://user-images.githubusercontent.com/48479537/128140380-c14f909f-9c9d-4b07-8393-060343abaf65.png)
-
 # License
 
 [Apache License 2.0](https://github.com/tbrandl-dynatrace/wso2-apimanager-dynatrace/blob/05102e2f98571479a0f4aed7a555e479d01b110d/custom.opentelemetry.tracer/target/maven-shared-archive-resources/META-INF/LICENSE)
