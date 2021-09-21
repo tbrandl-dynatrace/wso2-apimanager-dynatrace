@@ -18,7 +18,10 @@ remote_tracer.name = "opentelemetry"
 ## Using with Dynatrace
 - This requires at least OneAgent version 1.221 as WSO2 API Manager uses an old version of OpenTracing (0.31). The Dynatrace OneAgent needs to be installed on the machine running WSO2.
 
-Create the following Span Context Propagation rule:
+- Enable W3C Trace context and at least one of the two OpenTracing options for Java:
+![image](https://user-images.githubusercontent.com/48479537/134170111-43b89753-86d7-418a-b24f-232ff8e4af2a.png)
+
+- Create the following Span Context Propagation rule:
 
 ![image](https://user-images.githubusercontent.com/48479537/134140123-e2033e9a-862f-4c54-8d16-e27b6b2099ff.png)
 
