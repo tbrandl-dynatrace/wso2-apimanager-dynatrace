@@ -1,3 +1,10 @@
+# DEPRECATED - ONLY USE THIS FOR WSO2 API MANAGER < 4.3
+
+For new versions of WSO2 - please use pure OpenTelemetry for newer versions https://apim.docs.wso2.com/en/latest/monitoring/observability/traces/monitoring-with-opentelemetry/.
+
+The ingest endpoint should be configured to use OTLP/gRPC from the Dynatrace Collector - see https://docs.dynatrace.com/docs/ingest-from/setup-on-k8s/extend-observability-k8s/telemetry-ingest#configure-applications
+
+
 # Dynatrace tracer for WSO2 API Manager
 
 This is an implementation for OpenTracing in WSO2 API manager which uses pure OpenTracing classes for being able to use the Dynatrace OneAgent with WSO2.
